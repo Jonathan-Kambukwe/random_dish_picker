@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet">   
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="cont"> 
+        <div class="left">
+            <h1 class="title">Random dish selector</h1>
+            <h3>Complete the form below to start</h3><br>
+            <form>
+                <input type="text" id="dishInput" placeholder="Enter dish" required><br><br>
+
+                <button type="button" id="addDish">+ Add Dish</button><br><br>
+
+                <button type="button" id="pickButton">pick random dish</button>
+            </form>
+            <p class="tips"></b><i><b>Pro Tip :</b>
+                Add dishes you have not had in the last 7 days
+                </i>
+            </p>
+        </div>
+
+        <div class="right">
+            <div id="dishesList" class="dishesList">
+                <h3 class="title">Currently Added Dishes</h3>
+                <ul id="dishItems"></ul>
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+</html>
+<script src="script.js"></script>
